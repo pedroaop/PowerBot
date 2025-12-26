@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "id": "1",
+      "description": "Exemplo de ação 1",
+      "command": "https://api.exemplo.com/action1"
+    },
+    {
+      "id": "2",
+      "description": "Exemplo de ação 2",
+      "command": "https://api.exemplo.com/action2"
+    }
+  ],
+  "cancel_option": "99",
+  "messages": {
+    "menu_title": "**O que você deseja?**",
+    "ping_response": "Pong!",
+    "cancel": "Operação cancelada.",
+    "waiting": "Aguarde {action}...",
+    "success": "Sucesso ao {action}!",
+    "error": "Erro ao {action}. Código HTTP: {status}.",
+    "timeout": "Tempo esgotado. Por favor, digite `{prefix}{command}` novamente."
+  }
+}
+
